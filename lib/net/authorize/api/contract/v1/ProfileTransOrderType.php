@@ -39,7 +39,7 @@ class ProfileTransOrderType extends ProfileTransAmountType implements \JsonSeria
     /**
      * @property boolean $recurringBilling
      */
-    private $recurringBilling = null;
+    private $recurringBilling = 1;
 
     /**
      * @property string $cardCode

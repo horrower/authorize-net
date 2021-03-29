@@ -174,7 +174,7 @@ class TransactionDetailsType implements \JsonSerializable
     /**
      * @property boolean $recurringBilling
      */
-    private $recurringBilling = null;
+    private $recurringBilling = 1;
 
     /**
      * @property string $customerIP
